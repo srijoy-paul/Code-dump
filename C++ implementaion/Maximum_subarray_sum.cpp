@@ -14,7 +14,8 @@ public:
         vector<int> res;
         vector<int> temp;
         int maxSum = a[0], res = a[0];
-        res.push_back(a[0]) for (int i = 1; i < n; i++)
+        res.push_back(a[0]);
+        for (int i = 1; i < n; i++)
         {
             if ((maxSum + a[i]) > arr[i])
                 ;
